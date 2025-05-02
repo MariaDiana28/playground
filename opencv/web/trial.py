@@ -46,11 +46,11 @@ while True:
         break
 
     result = ball(frame)
-    cv2.imshow("Live Ball Detection", result)
+   # cv2.imshow("Live Ball Detection", result)
 
-    # Press 'q' to quit
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
+    # # Press 'q' to quit
+    # if cv2.waitKey(1) & 0xFF == ord('q'):
+    #     break
 
 cap.release()
 cv2.destroyAllWindows()
