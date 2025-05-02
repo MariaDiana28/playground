@@ -33,7 +33,7 @@ def ball(img):
 
     return img
 
-cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
+cap = cv2.VideoCapture('/dev/video-top')
 
 if not cap.isOpened():
     print("Could not open webcam.")
