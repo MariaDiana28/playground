@@ -41,7 +41,7 @@ lower = np.array([5, 100, 140])
 upper = np.array([25, 255, 255])
 
 # Connect to NAO's camera
-cap = cv2.VideoCapture('/dev/video-down')
+cap = cv2.VideoCapture('/dev/video-bottom')
 if not cap.isOpened():
     print("Could not open webcam.")
     exit()
